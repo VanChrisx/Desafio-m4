@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.fontTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.fontMenu{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.header {
+  height          : 100px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.hmenu__desktop {
+  display: none;
+}
+
+.nav-bar {
+  display        : flex;
+  flex-direction : row;
+  justify-content: space-between;
+  height         : 100px;
+}
+
+.nav-bar__logo {
+  align-self: center;
+  height: 200px;
+  width     : 200px;
+  margin-left:5%;
+}
+
+.hmenu {
+  margin-right    : 5%;
+  margin-top      : 6%;
+  border          : none;
+  width           : 40px;
+  height          : 40px;
+  background-color: transparent;
+  background-image: url(../src/img/burger.png);
+}
+
+.hmenu__ventana {
+  display         : none;
+  position        : absolute;
+  width           : 100%;
+  height          : 616px;
+  background-color: black;
+  border          : solid 3px;
+}
+
+.hmenu__contenido {
+  display       : flex;
+  flex-direction: column;
+  align-self    : center;
+  margin        : auto;
+}
+
+.hmenu__cierra-ventana {
+  position        : absolute;
+  background-color: transparent;
+  border          : none;
+  margin-top      : 6%;
+  margin-left     : 86%;
+  width           : 36px;
+  height          : 36px;
+  background-image: url(../src/img/Vector.png);
+}
+
+.vinculos:visited{
+  color: white;
+}
+.hmenu__contenido-vinculos {
+  font-size: 48px;
+  color: white;
+}
+@media(min-width:950px) {
+  .hmenu {
+    display: none;
+  }
+
+  .hmenu__desktop {
+    display       : flex;
+    flex-direction: row;
+    gap           : 30px;
+    margin-right  : 6%;
+  }
+
+  .hmenu__contenido-vinculos {
+    font-size: 24px;
+  }
+}
+.serv-title{
+  display: none;
+}
+.serv-title__p{
+  display:none;
+}
+@media(min-width:950px) {
+  .header {
+    height    : 654px;
+    background: linear-gradient(107.17deg, #958C40 29.35%, rgba(156, 0, 210, 0.8) 78.73%);
+  }
+  .serv-title{
+    display: inherit;
+    height: 100%;
+    width: 100%;
+  }
+  .serv-title__p{
+    display:inherit;
+    align-self: center;
+    margin-bottom: 200px;
+    margin-left: 5%;
+    font-size: 48px;
+    color: white;
+  }
+}
+
+.service {
+  display         : flex;
+  flex-direction  : column;
+  background-color: black;
+  margin          : 0px;
+  width           : 100%;
+  gap             : 40px;
+}
+
+.service-content {
+  display       : flex;
+  flex-direction: column;
+  gap           : 100px;
+  margin-bottom : 100px;
+}
+
+.service-title {
+  align-self: center;
+  font-size : 32px;
+  color     : white;
+}
+
+.service-card {
+  display       : flex;
+  flex-direction: column;
+  width         : 306px;
+  align-self    : center;
+  border        : solid white;
+
+}
+
+.service-card__img {
+  align-self: center;
+  height    : 200px;
+  width     : 300px;
+}
+
+.service-card__title {
+  text-align: center;
+  font-size : 24px;
+  color     : white;
+}
+
+.service-card__boxtext {
+  margin: 0;
+}
+
+.service-card__text {
+  font-size: 16px;
+  color    : white;
+}
+@media(min-width:950px){
+  .service-title{
+    display: none;
+  }
+  .service-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-self: center;
+    margin: 50px;
+  }
+}
+
+.footer {
+  height          : 498px;
+  background-color: grey;
+  align-content   : center;
+}
+
+.footer__content {
+  display       : flex;
+  flex-direction: column;
+  gap           : 36px;
+}
+.footer__logo{
+  height: 200px;
+  width     : 200px;
+}
+
+.footer__logo-cont {
+  margin-top: 120px;
+  align-self: center;
+}
+
+
+.footer__socialmedia {
+  align-self: center;
+}
+
+.footer__socialmedia-align {
+  display: flex;
+  gap    : 10px;
+}
+
+.footer__socialsize {
+  vertical-align: middle
+}
+
+.footer__socialtext {
+  display       : inline;
+  vertical-align: middle;
+}
+@media(min-width:950px) {
+  .footer__content{
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    gap: 70%;
+  }
+  .footer__socialmedia{
+    vertical-align: middle;
+  }
+
+
+}
