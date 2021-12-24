@@ -40,29 +40,29 @@ function header(el) {
 
     navBarEl.innerHTML = ` 
     <nav class="nav-bar">
-    <img src="src/img/vanchrisLogo.png" alt="" class="nav-bar__logo">
+    <img src="../src/img/vanchrisLogo.png" alt="" class="nav-bar__logo">
     <button class="hmenu"></button>
     <div class="hmenu__desktop">
-        <a href="portfolio/portfolio.html" class="vinculos fontMenu" style="text-decoration:none">
+        <a href="../portfolio/portfolio.html" class="vinculos fontMenu" style="text-decoration:none">
             <p class="hmenu__contenido-vinculos">Portfolio</p>
         </a>
-        <a href="servicios/servicios.html"class="vinculos fontMenu"style="text-decoration:none">
+        <a href="../servicios/servicios.html"class="vinculos fontMenu"style="text-decoration:none">
             <p class="hmenu__contenido-vinculos">Servicios</p>
         </a>
-        <a href="contacto/contacto.html"class="vinculos fontMenu"style="text-decoration:none">
+        <a href="../contacto/contacto.html"class="vinculos fontMenu"style="text-decoration:none">
             <p class="hmenu__contenido-vinculos">Contacto</p>
         </a>
     </div>
     <div class="hmenu__ventana">
         <button class="hmenu__cierra-ventana"></button>
         <div class="hmenu__contenido">
-            <a href="portfolio/portfolio.html"class="vinculos fontMenu"style="text-decoration:none">
+            <a href="../portfolio/portfolio.html"class="vinculos fontMenu"style="text-decoration:none">
                 <p class="hmenu__contenido-vinculos">Portfolio</p>
             </a>
-            <a href="servicios/servicios.html"class="vinculos fontMenu"style="text-decoration:none">
+            <a href="../servicios/servicios.html"class="vinculos fontMenu"style="text-decoration:none">
                 <p class="hmenu__contenido-vinculos">Servicios</p>
             </a>
-            <a href="contacto/contacto.html"class="vinculos fontMenu"style="text-decoration:none">
+            <a href="../contacto/contacto.html"class="vinculos fontMenu"style="text-decoration:none">
                 <p class="hmenu__contenido-vinculos">Contacto</p>
             </a>
         </div>
