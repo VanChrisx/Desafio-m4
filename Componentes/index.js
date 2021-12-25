@@ -20,15 +20,15 @@ function footer(el) {
             <div class="footer__socialmedia">
                 <div class="footer__socialmedia-align">
                     <p class="footer__socialtext">Instagram</p>
-                    <img src="../src/img/instagram.svg" alt="" class="footer__socialsize">
+                    <img src="./img/instagram.svg" alt="" class="footer__socialsize">
                 </div>
                 <div class="footer__socialmedia-align">
                     <p class="footer__socialtext">Linkedin</p>
-                    <img src="../src/img/Linkedin.svg" alt="" class="footer__socialsize">
+                    <img src="./img/Linkedin.svg" alt="" class="footer__socialsize">
                 </div>
                 <div class="footer__socialmedia-align">
                     <p class="footer__socialtext">GitHub</p>
-                    <img src="../src/img/github.svg" alt="" class="footer__socialsize">
+                    <img src="./img/github.svg" alt="" class="footer__socialsize">
                 </div>
             </div>
     `;
