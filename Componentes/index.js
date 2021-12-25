@@ -40,7 +40,9 @@ function header(el) {
 
     navBarEl.innerHTML = ` 
     <nav class="nav-bar">
+    <a href="./index.html" style="text-decoration:none">
     <img src="./img/vanchrisLogo.png" alt="" class="nav-bar__logo">
+    </a>
     <button class="hmenu"></button>
     <div class="hmenu__desktop">
         <a href="./portfolio.html" class="vinculos fontMenu" style="text-decoration:none">
