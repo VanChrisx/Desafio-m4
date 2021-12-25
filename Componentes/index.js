@@ -40,7 +40,7 @@ function header(el) {
 
     navBarEl.innerHTML = ` 
     <nav class="nav-bar">
-    <a href="./index.html" style="text-decoration:none">
+    <a href="./index.html" class="nav-varlogo_link" style="text-decoration:none">
     <img src="./img/vanchrisLogo.png" alt="" class="nav-bar__logo">
     </a>
     <button class="hmenu"></button>
