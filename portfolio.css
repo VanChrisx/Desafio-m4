@@ -33,6 +33,10 @@ body {
   height         : 100px;
 }
 
+.nav-varlogo_link{
+  align-self: center;
+  margin-left:5%;
+}
 .nav-bar__logo {
   align-self: center;
   height: 200px;
